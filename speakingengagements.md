@@ -9,7 +9,7 @@ If you are interested in me speaking at your meetup or conference please reach o
 
 ## Devcon3 Ethereum Developer Conference: Introduction to Solidity [2017 Edition] (2017)
 **No Video**
-#### Slides
+#### [Slides](https://hudsonjameson.com/presentations/hudson-introtosolidity2017-devcon3.pptx)
 
 ## All Things Open: Welcome to Ethereum (2017)
 **No Video**
