@@ -9,6 +9,9 @@ tags: [ethereum, blockchain]
 
 **[French Translation (traduction française)](https://www.ethereum-france.com/comptes-transactions-gaz-et-limites-de-gaz-par-bloc-sur-ethereum/) courtesy of [Ethereum France](https://www.ethereum-france.com)**
 
+**[Korean Translation(
+한국어 번역)](https://medium.com/@yehji205/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EA%B3%84%EC%A0%95-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98-%EA%B0%80%EC%8A%A4-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EB%B8%94%EB%A1%9D-%EA%B0%80%EC%8A%A4-%ED%95%9C%EB%8F%84-89c5428078e6) courtesy of [Yeji Park](https://medium.com/@yehji205)**
+
 **[Russian Translation (Русский перевод)](https://medium.com/@luardi/%D0%B0%D0%BA%D0%BA%D0%B0%D1%83%D0%BD%D1%82%D1%8B-%D1%82%D1%80%D0%B0%D0%BD%D0%B7%D0%B0%D0%BA%D1%86%D0%B8%D0%B8-%D0%B3%D0%B0%D0%B7-%D0%B8-%D0%BB%D0%B8%D0%BC%D0%B8%D1%82-%D0%B3%D0%B0%D0%B7%D0%B0-%D0%BD%D0%B0-%D0%B1%D0%BB%D0%BE%D0%BA-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8-%D1%8D%D1%84%D0%B8%D1%80%D0%B8%D1%83%D0%BC-35454cffa3d0) courtesy of [Mark Poyda](https://medium.com/@luardi)**
 
 **[Spanish Translation (Traducción Española)](https://medium.com/@wanraitelli/cuentas-transacciones-gas-y-l%C3%ADmites-de-gas-en-los-bloques-de-ethereum-d2150de36559) courtesy of [Wan Raitelli](https://medium.com/@wanraitelli)**
@@ -96,7 +99,7 @@ For estimating gasUsed, there is [an estimateGas API that can be used but has so
 A user constructs and signs a transaction, and each user may specify whatever `gasPrice` they desire, which can be zero. However, the Ethereum clients launched at Frontier had a default `gasPrice` of 0.05e12 wei. As miners optimize for their revenue, if most transactions are being submitted with a `gasPrice` of 0.05e12 wei, it would be difficult to convince a miner to accept a transaction that specified a lower, or zero, `gasPrice`.
 
 ### Example transaction cost
-_With permission, I am borrowing this example and analogy from the awesome MyEtherWallet team. Please [visit their well-written guide on gas here](https://myetherwallet.groovehq.com/knowledge_base/topics/what-is-gas). They also have [an excellent utilities page that allows you to convert amounts of ether into subunits](https://www.myetherwallet.com/helpers.html)._
+_With permission, I am borrowing this example and analogy from the awesome MyEtherWallet team. Please [visit their well-written guide on gas here](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html). They also have [an excellent utilities page that allows you to convert amounts of ether into subunits](https://www.myetherwallet.com/helpers.html)._
 
 You can think of the gas limit like the amount of liters/gallons/units of gas for a car. You can think of the gas price as the cost of that liter/gallon/unit of gas.
 
@@ -190,6 +193,6 @@ Please visit the CLI options pages for [geth](https://github.com/ethereum/go-eth
  * [Ethereum StackExchange for technical questions of all kinds.](https://ethereum.stackexchange.com/)
  * [EthDocs Ethereum Documentation (Much of it is outdated, but still good).](http://ethdocs.org/en/latest/)
  * ["Ethereum Gas, Fuel and Fees" by Joseph Chow.](https://media.consensys.net/ethereum-gas-fuel-and-fees-3333e17fe1dc)
- * ["What is Gas?" by MyEtherWallet](https://myetherwallet.groovehq.com/knowledge_base/topics/what-is-gas).
+ * ["What is Gas?" by MyEtherWallet](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html).
  * [MyEtherWallet Ether unit conversion tool.](https://www.myetherwallet.com/helpers.html)
  * ["When there are too many pending transactions" by Infura.](https://blog.infura.io/when-there-are-too-many-pending-transactions-8ec1a88bc87e)
