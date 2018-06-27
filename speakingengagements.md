@@ -7,6 +7,10 @@ If you are interested in me speaking at your meetup or conference please reach o
 
 # Conferences
 
+## Zcon0: Ethereum Governance (2018)
+**No Video (yet)**
+#### [Slides](https://hudsonjameson.com/presentations/hudson-zcon0-2018.pdf)
+
 ## Devcon3 Ethereum Developer Conference: Introduction to Solidity [2017 Edition] (2017)
 {% include youtubePlayer.html id="KkN1O8TChbM" %}
 #### [Slides](https://hudsonjameson.com/presentations/hudson-introtosolidity2017-devcon3.pptx)
