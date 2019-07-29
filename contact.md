@@ -7,7 +7,7 @@ title: Contact
 
 E-Mail: [hudson@hudsonjameson.com](mailto:hudson@hudsonjameson.com)
 
-PGP: [871D E3CE 8A05 E84F](http://www.keybase.io/souptacular)
+PGP: [6309 2DB1 BD4D 098E](http://www.keybase.io/souptacular)
 
 [Twitter](https://twitter.com/hudsonjameson)
 
