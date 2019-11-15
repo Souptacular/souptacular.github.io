@@ -229,7 +229,7 @@ Here are my top 3 proposals. I will be voting for #1 but want to include #2 and 
 
 This proposal is the most pragmatic in my mind. It gets straight to the point: the ECC and Zcash Foundation are best suited to manage this level of funding, but we still need a third entity/group to keep things in check. The community is still close-knit enough that it would be easier for the major orgs to find community members to fit the ZF Grant Review Committee than to start a third-party entity from scratch or make it more complicated than it has to be.
 
-I highly doubt an organization as well trusted and suitable for managing a large development fund as the Zcash Foundation and the ECC is will form in the next 2 years. Splitting the fund between those two entities would probably happen anyway so why be overzealous in making things compeltely fair and unbiased and perfectly decentralized this early in the game.
+I highly doubt an organization as well trusted and suitable for managing a large development fund as the Zcash Foundation and the ECC is will form in the next 2 years. Splitting the fund between those two entities would probably happen anyway so why be overzealous in making things completely fair and unbiased and perfectly decentralized this early in the game.
 
 **#2: [Blocktown Development Fund Proposal: 10% to a 2-of-3 multisig with community involved Third Entity by Blocktown, James Todaro, and Joseph Todaro](https://forum.zcashcommunity.com/t/blocktown-development-fund-proposal-10-to-a-2-of-3-multisig-with-community-involved-third-entity/34782)**
 
