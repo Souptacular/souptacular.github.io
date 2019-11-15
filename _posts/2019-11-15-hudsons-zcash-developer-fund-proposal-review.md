@@ -18,7 +18,7 @@ Before I started reviewing the ZIPs and community feedback, I wanted to formulat
 
 - [Zcash Foundation piece asking for ECC to be non-profit](https://www.zfnd.org/blog/dev-fund-guidance-and-timeline/)
 
-- ECC response to above piece (can't find the link)
+- [ECC response to above piece](https://electriccoin.co/blog/a-blank-slate-the-community-to-decide-its-future/)
 
 Before I read any of the above, I thought the following should happen:
 - Cut off rewards to investors and founders
