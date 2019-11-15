@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Hudson's Zcash Developer Fund Proposal Reviews'
+title: Hudson's Zcash Developer Fund Proposal Reviews
 date: 2019-11-15
 category: cryptocurrency, zcash
 tags: [cryptocurrency, zcash]
