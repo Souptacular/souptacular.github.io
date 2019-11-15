@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Have Mental Illnesses
-date: '2019-05-07'
+date: 2019-05-07
 category: depression, mental health
 tags: [depression, mental health]
 ---
