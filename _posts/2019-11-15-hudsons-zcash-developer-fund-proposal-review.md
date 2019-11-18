@@ -6,6 +6,13 @@ category: cryptocurrency, zcash
 tags: [cryptocurrency, zcash]
 ---
 
+I spent the last two days going over every dev fund proposal and writing my thoughts. I have turned this into a post on the Zcash forums. I'm proud to be a part of the Zcash Foundation Advisory Board and I take this decision very seriously. I hope the community comes together on this.
+
+* [Zcash Forum Post](https://forum.zcashcommunity.com/t/dev-fund-review-of-all-proposals-hudsons-review/35429)
+* [Tweet](https://twitter.com/hudsonjameson/status/1195392941193342976?s=20)
+
+**Skip to the bottom for my pick**
+
 ## Who am I?
 
 My name is Hudson Jameson and I am a cryptocurrency enthusiast who is involved in both the Ethereum and, to a lesser extent, Zcash community. I work for the Ethereum Foundation in a role for devops and community management. I hold a number of roles in the wider Ethereum ecosystem including EIP (Ethereum Improvement Proposal) Editor, Reddit moderator, Ethereum Cat Herders group co-founder, and core developer liaison responsible for organizing the bi-weekly Ethereum core developer calls. I am on the [Zcash Community Advisory Panel](https://www.zfnd.org/governance/community-advisory-panel/) that will be [polled (for sentiment collection) by the Zcash Foundation regarding NU4 proposals (dev fund proposals)](https://www.zfnd.org/blog/updated-community-sentiment-timeline/). I care about Zcash and it's community. I consider Ethereum and Zcash besties <3
@@ -34,6 +41,8 @@ Where I currently land (I wrote this part around August 2019) before diving into
 - There are no other organizations that are non-profit in the Zcash community that have the infrastructure and reputation to handle the funds.
 
 - Stopping the block reward would cause major financial stress to the entities and people who build Zcash. The Ethereum Foundation has a large fund of pre-sale ether and Bitcoin that has allowed them to support the development and education of the Ethereum ecosystem. There isn't a large pre-sale fund that the ECC or Zcash Foundation have.
+
+EDITED 11/18: I gave my "Pre-Research View", but not my "Post-Research View" as far as letting everone know my thoughts after doing some more research on the areas in the "Pre-Research View" (outside of the ZIPs). I said above that "Once I read Jame's piece I started to question how well the ECC has been managed." Zooko was kind enough to send me [this video](https://www.youtube.com/watch?v=yYFh0CCye58) that gives a great overview of the ECC. I also talked frankly to Zooko about some of the things brought up in Jame's piece and I am comfortable saying that I believe the ECC is being managed well. No organization is perfect, but the level of transparency provided based on the ECC material I have dug into shows that things are growing and successful.
 
 ## Overview of ZIPs Arguments (performed November 13-14, 2019)
 
@@ -97,6 +106,8 @@ If the precedent of crowdfunding was built into the core protocol early on and i
 I already have good feels about this proposal because it tries to tackle the financing mechanim as well as the governance mechanism without an opt-in mechanic. In fact it states that "This funding mechanism MUST be hard-coded so that 10% of newly issued ZEC from block rewards are automatically directed to the transparent address(es) of the Zcash Development Fund". The Zcash Foundation, ECC, and a "third entity" would oversee allocating the 10% dev fund to various individuals and entities. A 2-of-3 multisig would be enacted so 2 out of 3 parties must agree on where the funds go. If there is a disagreement between the ECC and Zcash Foundation with how to proceed with a decision the third entity would become involved.
 
 I like that the process for forming the third-party entity are not determined in this proposal beyond the very basics of the governance mechanism. It leaves open the opportunity for more community discussion and formation of the group. At the same time, it leaves open the opportunity for the ECC or Zcash Foundation to abuse the system.
+
+EDIT 11/18: On a [Zcash forum post](https://forum.zcashcommunity.com/t/dev-fund-review-of-all-proposals-hudsons-review/35429/10?u=souptacular) I was alerted to the fact that the "at current ZEC prices the 10% total dev funding in the Blocktown proposal would not allow ECC to continue in their current operations as they are today". I feel awful I missed that point since it is a very important one. I agree that 20% is much better than 10% and would ensure enough funding for all parties who get the block reward.
 
 ### [Dev Fund Supplemental Proposal: enforce devfund commitments with legal charter](https://forum.zcashcommunity.com/t/dev-fund-supplemental-proposal-enforce-devfund-commitments-with-legal-charter/34709)
 
@@ -206,6 +217,9 @@ The "Volatility Reserve" is a great idea:
 
 The transparency and accountability are similar to Matt's proposal which I find acceptable, although it may be a little hard to define some of the broader terms such as "major activity" and "detailed review". Not a huge issue though.
 
+## EDIT 11/18: [ZIP: “Keep It Simple, Zcashers (KISZ): 10% to ECC, 10% to ZFnd”](https://forum.zcashcommunity.com/t/zip-keep-it-simple-zcashers-kisz-10-to-ecc-10-to-zfnd/35425)
+
+This was a last minute proposal that gave 10% of the 20% dev fund block reward to the ECC and the other 10% to the Zcash Foundation. It is very simple (as described in the title) which is nice, but it kicks the can down the road with regards to direct community involvement in how the funds are managed, which I believe is important for a large portion of the Zcash community.
 
 ## My Perspective
 
@@ -225,20 +239,42 @@ The future could be grim for Ethereum if we let the attacker keep the funds. I t
 
 Here are my top 3 proposals. I will be voting for #1 but want to include #2 and #3 in case you are an Advisory Board member and want other options.
 
-**#1: [A Grand Compromise/Synthesis ZIP Proposal by Josh Cincinnati (Note: The page this is linked to is Josh's latest revision to the proposal)](https://forum.zcashcommunity.com/t/a-grand-compromise-synthesis-zip-proposal/34812/62)**
+**EDIT 11/18: Here is what I decided to do: rather than picking my top 3 choices, I am eliminating the #2 and #3 choices for simplicity and only including my top choice (it has not changed, but there is additional reasoning).**
+
+#1: [A Grand Compromise/Synthesis ZIP Proposal by Josh Cincinnati (Note: The page this is linked to is Josh's latest revision to the proposal)](https://forum.zcashcommunity.com/t/a-grand-compromise-synthesis-zip-proposal/34812/62)**
 
 This proposal is the most pragmatic in my mind. It gets straight to the point: the ECC and Zcash Foundation are best suited to manage this level of funding, but we still need a third entity/group to keep things in check. The community is still close-knit enough that it would be easier for the major orgs to find community members to fit the ZF Grant Review Committee than to start a third-party entity from scratch or make it more complicated than it has to be.
 
-I highly doubt an organization as well trusted and suitable for managing a large development fund as the Zcash Foundation and the ECC is will form in the next 2 years. Splitting the fund between those two entities would probably happen anyway so why be overzealous in making things completely fair and unbiased and perfectly decentralized this early in the game.
+I highly doubt an organization as well trusted and suitable for managing a large development fund as the Zcash Foundation and the ECC is will form in the next 2 years. Splitting the fund between those two entities would probably happen anyway so why be overzealous in making things compeltely fair and unbiased and perfectly decentralized this early in the game.
 
-**#2: [Blocktown Development Fund Proposal: 10% to a 2-of-3 multisig with community involved Third Entity by Blocktown, James Todaro, and Joseph Todaro](https://forum.zcashcommunity.com/t/blocktown-development-fund-proposal-10-to-a-2-of-3-multisig-with-community-involved-third-entity/34782)**
+So what makes this proposal better than all of the rest? I feel like it strikes a balance between simply giving 10% each to two organizations and pleasing those in the community who want a more specific say in how things happen. The largest piece (40%) of the dev fund would go "to the fund [of] the Zcash Foundation as a RESTRICTED donation purely for disbursement through ZF Grants...". I don't think Zcash wants anyone else leaving the community due to disagreements and this proposal gives power to the community by making an "independent body to both organizations" that can choose to donate to those who most need it.
 
-As I said in my #1 choice, this proposal realizes the fact that the Zcash Foundation and the ECC are best suited for managing this funding. It doesn't use on-chain voting mechanisms that would complicate things and leaves the decision on how to create the third-party entity open. I believe that the community could come up with a third-party entity proposal in a matter of months, but that still provides a lot of headaches and potentially a second poll so for that reason it isn't my #1 choice.
-
-**#3: [Dev Fund Proposal: Dev Fund to ECC + Zfnd + Major Grants by Eran Tromer](https://forum.zcashcommunity.com/t/dev-fund-proposal-dev-fund-to-ecc-zfnd-major-grants/35364)**
-
-A lot of the issues I had with the "[Decentralizing the Dev Fee](https://forum.zcashcommunity.com/t/decentralizing-the-dev-fee/35252)" proposal are fixed in this one. It seems to be a good balance of concerns and takes into account different party’s incentives to participate, including the ECC. The reason it doesn't beat Blocktown's proposal is because I am not sure the exclusivity clause for the principal developer would work for the ECC as they may want the flexibility to mature into an organization beyond specifically Zcash. The "strengthened" transparency and accountability requirements, while solid, may be a bit too much for organizations and individuals to keep up with and cause some pressure and inflexibility on the part of the Zcash Foundation.
+## EDIT 11/18: A note on ECC's Funding from my perspective
+I know there is a lot of fear about the ECC having to wind down if their budget is not met. That is a real concern. The fact that they now have around 30 employees and their quarterly cost [(as described in the Q3 2019 transparency report)](https://electriccoin.co/blog/electric-coin-company-q3-2019-transparency-report/) is well under $1m is really astounding for the level of expertise they have on their team. It would be prudent to donate some of the ZF Grants funds to the ECC in addition to the 30% of the dev fund that the ECC will already receive under this plan. It is important to keep the ECC afloat. It really hurt me to choose a proposal that would potentially put the future of the ECC in jeopardy, but I wanted my choice, above all else, to be reflective of what I felt was best for Zcash according to what the Zcash community wanted and that reflected the values of Zcash.
 
 ## Conclusion
 
 Thank you for taking the time to read this and thank you to the Zcash Foundation Advisory Board Members who read this and consider the proposals carefully.
+
+-------------
+
+
+**EDIT 11/18: My original ordering for propsals is below.**
+
+**NOTE: OLD ORDER - #1: [A Grand Compromise/Synthesis ZIP Proposal by Josh Cincinnati (Note: The page this is linked to is Josh's latest revision to the proposal)](https://forum.zcashcommunity.com/t/a-grand-compromise-synthesis-zip-proposal/34812/62)**
+
+This proposal is the most pragmatic in my mind. It gets straight to the point: the ECC and Zcash Foundation are best suited to manage this level of funding, but we still need a third entity/group to keep things in check. The community is still close-knit enough that it would be easier for the major orgs to find community members to fit the ZF Grant Review Committee than to start a third-party entity from scratch or make it more complicated than it has to be.
+
+I highly doubt an organization as well trusted and suitable for managing a large development fund as the Zcash Foundation and the ECC is will form in the next 2 years. Splitting the fund between those two entities would probably happen anyway so why be overzealous in making things compeltely fair and unbiased and perfectly decentralized this early in the game.
+
+**NOTE: OLD ORDER - #2: [Blocktown Development Fund Proposal: 10% to a 2-of-3 multisig with community involved Third Entity by Blocktown, James Todaro, and Joseph Todaro](https://forum.zcashcommunity.com/t/blocktown-development-fund-proposal-10-to-a-2-of-3-multisig-with-community-involved-third-entity/34782)**
+
+As I said in my #1 choice, this proposal realizes the fact that the Zcash Foundation and the ECC are best suited for managing this funding. It doesn't use on-chain voting mechanisms that would complicate things and leaves the decision on how to create the third-party entity open. I believe that the community could come up with a third-party entity proposal in a matter of months, but that still provides a lot of headaches and potentially a second poll so for that reason it isn't my #1 choice.
+
+**NOTE: OLD ORDER - #3: [Dev Fund Proposal: Dev Fund to ECC + Zfnd + Major Grants by Eran Tromer](https://forum.zcashcommunity.com/t/dev-fund-proposal-dev-fund-to-ecc-zfnd-major-grants/35364)**
+
+A lot of the issues I had with the "[Decentralizing the Dev Fee](https://forum.zcashcommunity.com/t/decentralizing-the-dev-fee/35252)" proposal are fixed in this one. It seems to be a good balance of concerns and takes into account different party’s incentives to participate, including the ECC.
+
+**EDIT 11/18**: I originally said, "The reason it doesn't beat Blocktown's proposal is because I am not sure the exclusivity clause for the principal developer would work for the ECC as they may want the flexibility to mature into an organization beyond specifically Zcash." This statement was inaccurate as there is no "exclusivity clause" in this proposal.
+
+The "strengthened" transparency and accountability requirements, while solid, may be a bit too much for organizations and individuals to keep up with and cause some pressure and inflexibility on the part of the Zcash Foundation.
