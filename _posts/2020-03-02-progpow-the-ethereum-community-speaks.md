@@ -27,17 +27,29 @@ My role since late 2016 has been to organize and run the core developer meetings
 The earliest mention of ProgPoW I could find in an Ethereum core developer meeting is [meeting #38](https://github.com/ethereum/pm/blob/master/All%20Core%20Devs%20Meetings/Meeting%2038.md) which occurred on May 18, 2018. There have been off and on discussions about ProgPoW during core developer meetings since that time. Below I have a list of the 13 meetings where ProgPoW was mentioned.
 
 [#38 - May 18, 2018](https://github.com/ethereum/pm/blob/master/All%20Core%20Devs%20Meetings/Meeting%2038.md)
+
 [#45 - August 24, 2018](https://github.com/ethereum/pm/blob/master/All%20Core%20Devs%20Meetings/Meeting%2045.md)
+
 [#47 - September 28, 2018](https://github.com/ethereum/pm/blob/master/All%20Core%20Devs%20Meetings/Meeting%2047.md)
+
 [#52 - January 4, 2019](https://github.com/ethereum/pm/blob/master/All%20Core%20Devs%20Meetings/Meeting%2052.md)
+
 [#53 - January 18, 2019](https://github.com/ethereum/pm/blob/master/All%20Core%20Devs%20Meetings/Meeting%2053.md)
+
 [#54 - February 1, 2019](https://github.com/ethereum/pm/blob/master/All%20Core%20Devs%20Meetings/Meeting%2054.md)
+
 [#57 - March 15, 2019](https://github.com/ethereum/pm/blob/master/All%20Core%20Devs%20Meetings/Meeting%2057.md)
+
 [#62 - May 24, 2019](https://github.com/ethereum/pm/blob/master/All%20Core%20Devs%20Meetings/Meeting%2062.md)
+
 [#65 - July 18, 2019](https://github.com/ethereum/pm/blob/master/All%20Core%20Devs%20Meetings/Meeting%2065.md)
+
 [#74 - November 1, 2019](https://github.com/ethereum/pm/blob/master/All%20Core%20Devs%20Meetings/Meeting%2074.md)
+
 [#77 - December 13, 2019](https://github.com/ethereum/pm/blob/master/All%20Core%20Devs%20Meetings/Meeting%2077.md)
+
 [#79 - January 24, 2020](https://github.com/ethereum/pm/blob/master/All%20Core%20Devs%20Meetings/Meeting%2079.md)
+
 [#81 - February 21, 2020](https://github.com/ethereum/pm/blob/master/All%20Core%20Devs%20Meetings/Meeting%2081.md)
 
 ### ProgPoW as a bargaining chip to miners
@@ -81,7 +93,7 @@ It is very easy to discount signals that one does not personally agree with on e
 
 The audits were released in September 2019. The delay in the audit's release was primarily due to issues raising funds. Least Authority, a well known security consulting group in the cryptocurrency space, performed the software audit and the hardware audit was performed by Bob Rao, a distinguished former Intel Fellow responsible for directing the development of advanced analytical tools and methods for microprocessor performance characterization, silicon debug and yield enhancement. The links to the audits are located [here](https://medium.com/ethereum-cat-herders/ProgPoW-audits-released-ed4973ebe073).
 
-The main concern raised by the Least Authority audit was the modified design of the Keccak function in the algorithm. [This Twitter thread elaborates on how it isn't a big deal to the IfDefElse team](https://twitter.com/shemnon/status/1173393400214634496?s=20) and this Twitter thread](https://twitter.com/panekkkk/status/1231247455804690433?s=20) provides even more context. It is something that may need to be further investigated, but I find IfDefElse's response sufficient and don't consider it an issue. Another finding from the Least Authority audit was that both Ethash and ProgPoW were susceptible to what they called "Light-Evaluation Method Mining Attack". We will talk more about this in the pros and cons section of this article.
+The main concern raised by the Least Authority audit was the modified design of the Keccak function in the algorithm. [This Twitter thread elaborates on how it isn't a big deal to the IfDefElse team](https://twitter.com/shemnon/status/1173393400214634496?s=20) and [this Twitter thread](https://twitter.com/panekkkk/status/1231247455804690433?s=20) provides even more context. It is something that may need to be further investigated, but I find IfDefElse's response sufficient and don't consider it an issue. Another finding from the Least Authority audit was that both Ethash and ProgPoW were susceptible to what they called "Light-Evaluation Method Mining Attack". We will talk more about this in the pros and cons section of this article.
 
 ### Post audit decisions from the core developers
 
@@ -116,7 +128,6 @@ I have been collecting arguments for and against ProgPoW, as well as reading the
 
 ### Motivation (PM#)
 
-</br>
 
 **PM1. Ethereum was designed to be ASIC resistant according to the [White Paper](https://github.com/ethereum/wiki/wiki/White-Paper#mining-centralization) and [Yellow Paper (pg. 13-14)](https://ethereum.github.io/yellowpaper/paper.pdf).**
 
@@ -163,8 +174,6 @@ I have been collecting arguments for and against ProgPoW, as well as reading the
 
 ### Technical (PT#)
 
-</br>
-
 
 **PT1. The hardware and software audits both concluded that ProgPoW is a significant improvement over today's Ethash implementation.**
 
@@ -189,7 +198,6 @@ I have been collecting arguments for and against ProgPoW, as well as reading the
 
 ### Motivation (CM#)
 
-</br>
 
 **CM1. The community has been ignored in the past as well as today when discussing ProgPoW. It was stealthily (maliciously or not) pushed through the Core Developer meetings without proper input from the community.**
 
@@ -233,7 +241,6 @@ I have been collecting arguments for and against ProgPoW, as well as reading the
 
 ### Technical (CT#)
 
-</br>
 
 **CT1. It is no longer feasible to create a mining algorithm that is truly ASIC resistant. An ASIC will always be created. ["For any algorithm, there will always be a path that custom hardware engineers can take to beat out general purpose hardware. It’s a fundamental limitation of general purpose hardware"](https://blog.sia.tech/the-state-of-cryptocurrency-mining-538004a37f9b).**
 
@@ -253,8 +260,10 @@ I have been collecting arguments for and against ProgPoW, as well as reading the
 **CT4. The DAG size is approaching 4GB so mining with both AMD GPUs with 4GB of memory and the main Ethash ASICs on the network [won't be able to mine Ether by the end of the year](https://www.reddit.com/r/ethereum/comments/f973yr/this_is_why_the_majority_of_the_e3_asics_will/), and [likely much earlier](https://cointelegraph.com/news/bitmains-antminer-e3-will-allegedly-stop-ethereum-mining-in-1-month-report).**
 
 **Rebuttal**: New ASICs can be created that utilize the Light-Evaluation Mining Attack referenced in PT2 to circumvent this.
+
 </br>
 </br>
+
 **CT5. Nvidia funded and co-designed ProgPoW. They have designed it to run better on Nvidia GPUs to compete with AMD.**
 
 **Rebuttal**: The Nvidia funding/co-design of ProgPoW is unfounded with no solid evidence. Although in earlier versions of ProgPoW there was an advantage to mine using Nvidia GPUs this was somewhat fixed in later versions. The reason AMD vs Nvidia GPUs will not have the same performance is because Nvidia GPUs are better designed and more performant compared to AMD GPUs [in general](https://youtu.be/alhEgNvzv50). [Multiple](https://www.bitsbetrippin.io/blogs/news/cryptocurrency-gpu-card-performance-list-ProgPoW-beam-grin-eth-ubiq-rvn-xmr-bittube) [independent tests were run](https://medium.com/the-capital/comprehensive-ProgPoW-benchmark-715126798476) by the community to confirm this.
@@ -285,7 +294,7 @@ I have talked to people who have been directly harassed due to this debate. I th
 
 # Special thanks
 
-#### Special thanks to [Artem Vorotnikov](https://twitter.com/vorot93), [Ben DiFrancesco](https://twitter.com/BenDiFrancesco), [Charles St. Louis](https://twitter.com/CharlieStLouis), [Collin Myers] (https://twitter.com/StakeETH), [Edson Ayllon](https://twitter.com/relativeread), [James Hancock](https://twitter.com/JHancock), [Jerome de Tychey](https://twitter.com/jdetychey), [Kristy-Leigh Minehan](https://twitter.com/OhGodAGirl), [Mariano Conti](https://twitter.com/nanexcool), [Pooja Ranjan](https://twitter.com/poojaranjan19), [Samuel Dare](https://twitter.com/DistStateAndMe), and [Tim Beiko](www.twitter.com/timbeiko) for taking the time to review and offer suggestions on this article.
+Special thanks to [Artem Vorotnikov](https://twitter.com/vorot93), [Ben DiFrancesco](https://twitter.com/BenDiFrancesco), [Charles St. Louis](https://twitter.com/CharlieStLouis), [Collin Myers](https://twitter.com/StakeETH), [Edson Ayllon](https://twitter.com/relativeread), [James Hancock](https://twitter.com/JHancock), [Jerome de Tychey](https://twitter.com/jdetychey), [Kristy-Leigh Minehan](https://twitter.com/OhGodAGirl), [Mariano Conti](https://twitter.com/nanexcool), [Pooja Ranjan](https://twitter.com/poojaranjan19), [Samuel Dare](https://twitter.com/DistStateAndMe), and [Tim Beiko](www.twitter.com/timbeiko) for taking the time to review and offer suggestions on this article.
 
 # Interesting links related to ProgPoW or mining
 - [Kialo collaborative decision making tool site for ProgPoW](https://www.kialo.com/ethereum-and-programmatic-proof-of-work-ProgPoW-30878).
