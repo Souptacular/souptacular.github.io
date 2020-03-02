@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ProgPoW: The Ethereum Community Speaks
+title: 'ProgPoW: The Ethereum Community Speaks'
 date: 2020-03-02
 category: cryptocurrency, ethereum
 tags: [cryptocurrency, ethereum, progpow]
