@@ -129,19 +129,25 @@ I have been collecting arguments for and against ProgPoW, as well as reading the
 ### Motivation (PM#)
 
 
-**PM1. Ethereum was designed to be ASIC resistant according to the [White Paper](https://github.com/ethereum/wiki/wiki/White-Paper#mining-centralization) and [Yellow Paper (pg. 13-14)](https://ethereum.github.io/yellowpaper/paper.pdf).**
+#### PM1
+
+**Ethereum was designed to be ASIC resistant according to the [White Paper](https://github.com/ethereum/wiki/wiki/White-Paper#mining-centralization) and [Yellow Paper (pg. 13-14)](https://ethereum.github.io/yellowpaper/paper.pdf).**
 
 **Rebuttal**: Although ASIC resistance was the original goal of Ethereum times have changed and [it is very difficult to prevent anti-competitive economies of scale from forming around mining](https://pdaian.com/blog/anti-asic-forks-considered-harmful/). Additionally, other algorithms that are less controversial than ProgPoW need to be explored, such as SHA3.
 
 **Rebuttal to the rebuttal**: See Argument CT3.
 
 
-**PM2. ProgPoW improves Ethereum's decentralization because commodity GPUs from individuals have a chance to mine rather than a few large corporations. It effectively decentralizes hash rate.**
+#### PM2
+
+**ProgPoW improves Ethereum's decentralization because commodity GPUs from individuals have a chance to mine rather than a few large corporations. It effectively decentralizes hash rate.**
 
 **Rebuttal**: This argument assumes that ASICs will not be sold to the average person, which previous evidence disproves(see the [Antminer E3](https://www.coindesk.com/bitmain-confirms-release-first-ever-ethereum-asic-miners)). **Rebuttal to the rebuttal**: Access to cheap electricity drives the decision to mine and decentralization. The average person paying 13 cents per KWh using an E3 Ethash ASIC is no match to a miner paying 1 cent per KWh with RX580 GPU card.
 
 
-**PM3. The mining community, made up largely of individual miners/hobbyists, have supported Ethereum since the beginning and their wishes, as indicated by the miner vote, should be respected.**
+#### PM3
+
+**The mining community, made up largely of individual miners/hobbyists, have supported Ethereum since the beginning and their wishes, as indicated by the miner vote, should be respected.**
 
 **Rebuttal**: Miners are service providers who secure the network for a reward. Although they are a part of the community, they should not be the only community stakeholder listened to in this debate. Miners vote can only be counted in hashrate, it is not possible to distinguish between individual miners with low hashrate and one single miner controlling many workers.
 
