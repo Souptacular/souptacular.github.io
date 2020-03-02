@@ -134,40 +134,40 @@ I have been collecting arguments for and against ProgPoW, as well as reading the
 **Rebuttal**: Although ASIC resistance was the original goal of Ethereum times have changed and [it is very difficult to prevent anti-competitive economies of scale from forming around mining](https://pdaian.com/blog/anti-asic-forks-considered-harmful/). Additionally, other algorithms that are less controversial than ProgPoW need to be explored, such as SHA3.
 
 **Rebuttal to the rebuttal**: See Argument CT3.
-</br>
-</br>
+
+
 **PM2. ProgPoW improves Ethereum's decentralization because commodity GPUs from individuals have a chance to mine rather than a few large corporations. It effectively decentralizes hash rate.**
 
 **Rebuttal**: This argument assumes that ASICs will not be sold to the average person, which previous evidence disproves(see the [Antminer E3](https://www.coindesk.com/bitmain-confirms-release-first-ever-ethereum-asic-miners)). **Rebuttal to the rebuttal**: Access to cheap electricity drives the decision to mine and decentralization. The average person paying 13 cents per KWh using an E3 Ethash ASIC is no match to a miner paying 1 cent per KWh with RX580 GPU card.
-</br>
-</br>
+
+
 **PM3. The mining community, made up largely of individual miners/hobbyists, have supported Ethereum since the beginning and their wishes, as indicated by the miner vote, should be respected.**
 
 **Rebuttal**: Miners are service providers who secure the network for a reward. Although they are a part of the community, they should not be the only community stakeholder listened to in this debate. Miners vote can only be counted in hashrate, it is not possible to distinguish between individual miners with low hashrate and one single miner controlling many workers.
-</br>
-</br>
+
+
 **PM4. If ASICs proliferate the network (especially if it is only 1-2 entities) they can perform attacks, such as double-spending. They have this incentive because of the move to PoS.**
 
 **Rebuttal**: The current GPU miners are not provably altruistic so they have the same incentive to disrupt the network. They are profit-motivated and their actions in the ecosystem do not necessarily reflect how they are going to act as Eth 2.0 approaches. Ethereum’s [difficulty omb](https://www.investopedia.com/news/what-ethereums-difficulty-bomb/) makes it difficult for any miner to disrupt the move to PoS because they would need to fork the chain and remove the bomb to create a profitable chain once the bomb goes off.
-</br>
-</br>
+
+
 **PM5. The identities of the top Ethereum GPU mining pools are known. As ASICs proliferate the network, it will push GPU mining pools out because it will be unprofitable until 1-2 large ASIC entities control most of the network. If a secret ASIC is developed, we will not be able to hold accountable the entity that may attack the network or, at minimum, gain 51% of the has rate to threaten an attack.**
 
 **Rebuttal**: Since the Light-Evaluation Mining Attack is a known exploit in Ethash, ASIC manufacturers have an even playing field as far as being able to produce a performant ASIC. Competition among ASIC companies will ensue, similar to Bitcoin, which isn't a bad thing.
 
 **Rebuttal to the rebuttal**: Memory-hard ASIC's that are able to perform the light-evaluation behavior require the company creating the ASICs to have advanced knowledge of memory controllers or open-source memory controllers, which puts some ASIC companies at an advantage.
-</br>
-</br>
+
+
 **PM6. The current GPU mining pools are supportive of the Eth 2.0 transition and will not attack the network. This is shown by the work Sparkpool has done for the Ethereum community and the work on Eth 2.0 Bitfly/Etherchain has done. If there is an unaccounted for ASIC that secretly takes a large amount of hashing power we are at risk.**
 
 **Rebuttal**: See Rebuttal on PM4.
-</br>
-</br>
+
+
 **PM7. ASICs are very specialized hardware which means that they are subject to licensing and import/export controls and other regulatory hassles by authoritarian governments who may seek to control the mining community or censor transactions on the network.**
 
 **Rebuttal**: There are other means to track mining activity (e.g. electricity bills). Besides, it is a very questionable premise that Ethereum should enable resistance to government regulation.
-</br>
-</br>
+
+
 **PM8. ProgPoW was not controversial when it was introduced. Controversy was directly correlated with certain parties, such as Kristy and IfDefElse, rather than the algorithm itself. This does actually open a threat vector that you can create enough "FUD" to reject a proposal you disagree with.**
 
 **Rebuttal**: There have always been questions about ProgPoW. Governance capture works both ways, so if we allow ProgPoW through we are letting bad actors capture the core developer’s interest and are pushing through a proposal with significant opposition from the community. 
@@ -178,18 +178,18 @@ I have been collecting arguments for and against ProgPoW, as well as reading the
 **PT1. The hardware and software audits both concluded that ProgPoW is a significant improvement over today's Ethash implementation.**
 
 **Rebuttal**: There were a few things pointed out in the audits, including the "Light-Evaluation Mining Attack" referenced in both audits. The audits also concluded that, although ProgPoW would remove ASICs from the network, advances in hardware may make it possible that GPUs/FPGAs can no longer compete with a ProgPoW ASIC.
-</br>
-</br>
+
+
 #### **PT2. The "Light-Evaluation Mining Attack" referenced in both audits needs to be addressed. It allows for a large increase in ASIC efficiency that would effectively push out GPU miners and allow for only a few ASIC companies on the network. This is present in both Ethash and ProgPoW, although it can be fairly easily fixed in ProgPoW.**
 
 **Rebuttal**: If a decision is made that this is something to be concerned about we should assess other mining algorithms that may be more ASIC friendly or less ASIC friendly.
-</br>
-</br>
+
+
 **PT3. ProgPoW has been tested using the Gangnam testnet so it is safe to use on the network.**
 
 **Rebuttal**: There is always a risk deploying a change like this, so we have to evaluate if the risk to the network and reasons we want to implement ProgPoW are sufficient to risk the network losing security by relative hash rate dropping or the network breaking if there is a flaw in ProgPoW.
-</br>
-</br>
+
+
 **PT4. There is a lot of evidence that [secret ASICs on the Monero network made up over 51% of the hash rate until they were forked off](https://blog.sia.tech/the-state-of-cryptocurrency-mining-538004a37f9b). The same could happen to Ethereum, which would put us at the mercy of a few anonymous ASIC manufacturers.**
 
 **Rebuttal**: See CT1, CT2.
@@ -202,18 +202,18 @@ I have been collecting arguments for and against ProgPoW, as well as reading the
 **CM1. The community has been ignored in the past as well as today when discussing ProgPoW. It was stealthily (maliciously or not) pushed through the Core Developer meetings without proper input from the community.**
 
 **Rebuttal**: While it is true that the communication with the non-miner community could have been handled better, it does not negate the fact that the reasoning behind ProgPoW still stands and needs to be acted on. It has been thoroughly discussed on the core developer meetings which is shown in the videos/notes of the meetings and community was gauged appropriately with the resources and signaling systems we had.
-</br>
-</br>
+
+
 **CM2. Since ProgPoW is mostly implemented and tested across multiple clients, it can serve as a deterrent for ASICs to be built at a significant scale.**
 
 **Rebuttal**: ASIC proliferation can go undetected for a long time (see Monero's secret ASIC proliferation) and by the time we realize it we will already be under attack by an unknown actor. It should be implemented in clients, but commented out, to serve as a deterrent.
-</br>
-</br>
+
+
 **CM3. Kicking ASICs off the network is discriminating against certain actors that have so far not proven themselves to not be bad actors in their mining support of the network.**
 
 **Rebuttal**: See PM2, PM4.
-</br>
-</br>
+
+
 **CM4. ASIC resistance makes attacks on cryptocurrencies cheaper, primarily for sophisticated and well-resourced attackers like nation-states. From [Phil Daian's blog post](https://pdaian.com/blog/anti-asic-forks-considered-harmful/):**
 
 **Rebuttal**: Ethereum is currently 3% NiceHash attackable. To be at risk of a NiceHash attack the difficulty would need to reduce 90% or more before that attack is even possible. The likelihood that the network is made up of 90% ASICS is low. We can see this soon with the bricking of the original Antminer E3’s. It should be implemented in clients, but commented out, to serve as a deterrent.
@@ -221,20 +221,20 @@ I have been collecting arguments for and against ProgPoW, as well as reading the
 **> General-purpose computer-secured systems are cheaper to attack than specialized systems, as general-purpose hardware can be rented and resold after an attack to substantially subsidize attack cost.  Worse still, an attacker can use general-purpose hardware advantages to overwhelm any cryptocurrency seeking to avoid specialization by carrying attacks across PoW changing / defensive forks, a feature which is not possible with ASICs, where the community has a “nuclear option” available to disable miners at any time if objectively malicious behavior is detected.  These two factors combined severely cripple the economic security of networks secured by general-purpose hardware.**
 
 **Rebuttal**: The threat of large actors like nation-states are not applicable with how small Ethereum, and cryptocurrency in general, still is. They do not pose a big enough threat. Even smaller actors looking to destabilize the network will be stopped by our governance processes.
-</br>
-</br>
+
+
 **CM5. ProgPoW should not be a priority because we need to focus all of our energy on PoS.**
 
 **Rebuttal**: There are very, very little Eth 2.0 developers who have worked on, or even discussed thoroughly, ProgPoW. Eth 1.0 development will eventually merge somewhat with the governance processes and development of Eth 2.0, but as of now, they are separate. Additionally, ProgPoW is nearly implemented in 3 major clients and a custom testnet has been successfully run so there isn't more than a month of work (probably less) to do on it from a development perspective.
 
 **Rebuttal to the rebuttal**: Contentious hard forks not only involve miners, but also Dapp developers and exchanges who will have to pick a side that can end up defeating the very purpose of making the Eth 2.0 upgrade easier.
-</br>
-</br>
+
+
 **CM6. Most of the people behind the development of ProgPoW are anonymous so we do not know their professional affiliations and potential conflicts of interest.**
 
 **Rebuttal**: Many anonymous developers contribute greatly to the Ethereum ecosystem. It shouldn't matter who the developers are if the code is technically sound and has no advantage to particular pieces of hardware.
-</br>
-</br>
+
+
 **CM7. ProgPoW is a contentious issue and would likely result in a network split.**
 
 **Rebuttal**: Arguably, this wasn't contentious until the community felt they weren't heard. People listen to influencers and prominent community members so they are influenced by those loudly proclaiming it is contentious. It has become contentious because people say it is contentious.
@@ -245,24 +245,22 @@ I have been collecting arguments for and against ProgPoW, as well as reading the
 **CT1. It is no longer feasible to create a mining algorithm that is truly ASIC resistant. An ASIC will always be created. ["For any algorithm, there will always be a path that custom hardware engineers can take to beat out general purpose hardware. It’s a fundamental limitation of general purpose hardware"](https://blog.sia.tech/the-state-of-cryptocurrency-mining-538004a37f9b).**
 
 **Rebuttal**: There are coins, such as Ravencoin and Monero, who are experimenting with ways to create ASIC resistant algorithms to stymie ASICs from joining their mining network that are showing success. [RandomX](https://github.com/tevador/RandomX) is an example of this.
-</br>
-</br>
+
+
 **CT2. The fears that were experienced about secret ASICs mining the network and pushing GPUs out have been disproven in the 1.5+ years this has been up for debate.**
 
 **Rebuttal**: The secret ASICs mining on Monero was there for over a year before they were detected. It is entirely possible that we will not notice, just like miners and developers did not immediately notice the ice age block time changes until late 2019.
-</br>
-</br>
+
+
 **CT3. The ["economies of scale" argument](https://pdaian.com/blog/anti-asic-forks-considered-harmful/) dictates that "a proportionate saving in costs gained by an increased level of production." ["Miners have a variety of possible ways to gain “edges” over other miners, using even small differences in profitability at scale to dominate (and eventually purchase, if necessary) their competition, potentially centralizing production in an asymmetry of interest or resources."](https://pdaian.com/blog/anti-asic-forks-considered-harmful/).**
 
 **Rebuttal**: [Phil's blog about economies of scale](https://pdaian.com/blog/anti-asic-forks-considered-harmful/), in addition to [David Vorick's blog](https://blog.sia.tech/the-state-of-cryptocurrency-mining-538004a37f9b) that references economies of scale assume that the PoW coins are going to indefinitely remain PoW. Ethereum switching to Proof-of-Stake in the "near future" would deter ASIC manufacturers from spending the time and money creating a ProgPoW ASIC.
-</br>
-</br>
+
+
 **CT4. The DAG size is approaching 4GB so mining with both AMD GPUs with 4GB of memory and the main Ethash ASICs on the network [won't be able to mine Ether by the end of the year](https://www.reddit.com/r/ethereum/comments/f973yr/this_is_why_the_majority_of_the_e3_asics_will/), and [likely much earlier](https://cointelegraph.com/news/bitmains-antminer-e3-will-allegedly-stop-ethereum-mining-in-1-month-report).**
 
 **Rebuttal**: New ASICs can be created that utilize the Light-Evaluation Mining Attack referenced in PT2 to circumvent this.
 
-</br>
-</br>
 
 **CT5. Nvidia funded and co-designed ProgPoW. They have designed it to run better on Nvidia GPUs to compete with AMD.**
 
