@@ -148,7 +148,7 @@ I have been collecting arguments for and against ProgPoW, as well as reading the
 
 **PM4. If ASICs proliferate the network (especially if it is only 1-2 entities) they can perform attacks, such as double-spending. They have this incentive because of the move to PoS.**
 
-**Rebuttal**: The current GPU miners are not provably altruistic so they have the same incentive to disrupt the network. They are profit-motivated and their actions in the ecosystem do not necessarily reflect how they are going to act as Eth 2.0 approaches. Ethereum’s [difficulty omb](https://www.investopedia.com/news/what-ethereums-difficulty-bomb/) makes it difficult for any miner to disrupt the move to PoS because they would need to fork the chain and remove the bomb to create a profitable chain once the bomb goes off.
+**Rebuttal**: The current GPU miners are not provably altruistic so they have the same incentive to disrupt the network. They are profit-motivated and their actions in the ecosystem do not necessarily reflect how they are going to act as Eth 2.0 approaches. Ethereum’s [difficulty bomb](https://www.investopedia.com/news/what-ethereums-difficulty-bomb/) makes it difficult for any miner to disrupt the move to PoS because they would need to fork the chain and remove the bomb to create a profitable chain once the bomb goes off.
 
 
 **PM5. The identities of the top Ethereum GPU mining pools are known. As ASICs proliferate the network, it will push GPU mining pools out because it will be unprofitable until 1-2 large ASIC entities control most of the network. If a secret ASIC is developed, we will not be able to hold accountable the entity that may attack the network or, at minimum, gain 51% of the has rate to threaten an attack.**
