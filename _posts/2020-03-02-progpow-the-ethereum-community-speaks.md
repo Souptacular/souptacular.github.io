@@ -14,7 +14,7 @@ Programmatic Proof-of-Work (ProgPoW) has been a topic of contention in the Ether
 
 ## IfDefElse and Kristy-Leigh Minehan
 
-IfDefElse is a group of 3 or more developers who designed and developed ProgPoW. The only public member of IfDefElse is [Kristy-Leigh Minehan (a.k.a OhGodAGirl or Miss If)](https://twitter.com/OhGodAGirl/), who has publicly represented ProgPoW at core dev meetings (along with Dev and Else) and has spoken about ProgPoW on [podcasts](https://medium.com/blockchannel/episode-56-the-prognosis-on-ProgPoW-with-kristy-minehan-48efdd03bc22) and at [Devcon4])(https://www.youtube.com/watch?v=pe1pDGDy6iE), Ethereum's largest yearly gathering.
+IfDefElse is a group of 3 or more developers who designed and developed ProgPoW. The only public member of IfDefElse is [Kristy-Leigh Minehan (a.k.a OhGodAGirl or Miss If)](https://twitter.com/OhGodAGirl/), who has publicly represented ProgPoW at core dev meetings (along with Dev and Else) and has spoken about ProgPoW on [podcasts](https://medium.com/blockchannel/episode-56-the-prognosis-on-ProgPoW-with-kristy-minehan-48efdd03bc22) and at [Devcon4](https://www.youtube.com/watch?v=pe1pDGDy6iE), Ethereum's largest yearly gathering.
 
 ## The EIP Process and Ethereum Core Developer meetings
 
