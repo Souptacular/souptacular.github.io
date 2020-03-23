@@ -41,7 +41,7 @@ The All Core Devs meeting is a technical meeting intended to bring together vari
 
 The attendees of the meeting include low-level protocol developers, client developers, and core Ethereum researchers. Generally every Ethereum client is represented as well as key members of Layer 1 research/scaling teams. Sometimes a non-core developer with particular expertise on a topic is invited on to discuss a specific agenda item. The meetings are bi-weekly on Fridays and are live streamed/recorded on YouTube. You can view the agenda, notes, and videos of previous meetings [at this link](https://github.com/ethereum/pm). You can view upcoming agendas for future meetings [at this link](https://github.com/ethereum/pm/issues).
 
-The All Core Devs meetings are a primary tenant of the governance process of Ethereum. It is at these meetings where details behind network upgrades are decided and improvements to the Ethereum 1.0 stack are planned. As much as possible we try to attain rough consensus on decisions that need to be made and avoid voting. Because we design the meetings to be purely technical in nature, it makes it easier for arguments to be resolved by producing design docs, specs, and implementations to support your argument.
+The All Core Devs meetings are a primary tenet of the governance process of Ethereum. It is at these meetings where details behind network upgrades are decided and improvements to the Ethereum 1.0 stack are planned. As much as possible we try to attain rough consensus on decisions that need to be made and avoid voting. Because we design the meetings to be purely technical in nature, it makes it easier for arguments to be resolved by producing design docs, specs, and implementations to support your argument.
 
 
 ## Ethereum Cat Herders
