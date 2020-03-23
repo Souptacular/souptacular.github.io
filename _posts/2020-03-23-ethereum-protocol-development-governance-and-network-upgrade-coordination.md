@@ -5,7 +5,6 @@ date: 2020-03-23
 category: cryptocurrency, ethereum
 tags: [cryptocurrency, ethereum, progpow]
 ---
-
 This post will discuss how protocol level development decisions are made as well as how Ethereum network upgrades (a.k.a hard forks) are organized. There is a rich history in how Ethereum's decision making processes have developed over time. This article will focus on Eth 1.0 governance and not touch on Ethereum 2.0 governance. This article does not represent the viewpoint of the Ethereum Foundation or any other entity that I am associated with.
 
 ## Major Components of Ethereum’s Governance Structure
