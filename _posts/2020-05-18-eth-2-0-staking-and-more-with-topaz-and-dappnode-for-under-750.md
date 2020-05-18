@@ -15,7 +15,7 @@ There are multiple Eth 2.0 client implementations and testnets, but the most pop
 # Choosing the Hardware
 Prysmatic Labs made a [blog post](https://medium.com/prysmatic-labs/introducing-topaz-testnet-8e8a4e00a700) announcing the Topaz testnet and listing system requirements.
 
-![Topaz hardware requirements](https://hudsonjameson.com/img/2020/05/topaz-req.png)
+<img src="https://hudsonjameson.com/img/2020/05/topaz-req.png" alt="Topaz hardware requirements" width="400" />
 
 I wanted to do more than just run a Prysm validator on the node because DAppnode had a lot of "packages", such as Eth 1.0 clients and Zcash, that I could install in addition to the Eth 2.0 client. I would probably need a mid-range machine with a lot of hard drive space (for the blockchains I would be running on them) to accomplish this. I wanted a machine that wouldn't make a lot of noise and I had never owned a fanless PC before so I decided to give that a try. I bought:
 
@@ -27,7 +27,7 @@ I wanted to do more than just run a Prysm validator on the node because DAppnode
 1 x 4K Fanless Mini PC, Intel Quad Core I7 8565U,(Black),[HUNSN BM14],[WiFi/1DP/1HDMI/4USB3.0/4USB2.0/1LAN](Barebone System)
 ```
 
-![Hardware shopping list](https://hudsonjameson.com/img/2020/05/amazon-list.png)
+<img src="https://hudsonjameson.com/img/2020/05/amazon-list.png" alt="Hardware shopping list" width="494" />
 
 The solid state drive (SSD) was $219.99, the RAM was $82.99, and the processor/case/motherboard/power supply combo was $409.99. **All together the price of the entire system came to $712.97‬ before tax**. On reflection, I probably could have saved money buying an i5 processor instead of an i7 and buying 8GB of RAM rather than 16GB, but I wasn't sure exactly the computing requirements of the other DAppnode packages. I imagine you could easily bring this price down to under $500.
 
