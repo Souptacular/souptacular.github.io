@@ -2,6 +2,7 @@
 layout: page
 title: Speaking engagements
 ---
+**NOTE: This page hasn't been updated in a long time.**
 
 If you are interested in me speaking at your meetup or conference please reach out using the Contact page.
 
